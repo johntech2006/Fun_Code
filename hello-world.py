@@ -9,7 +9,7 @@ import sys
 # Arguments passed
 #print("\nName of Python script:", sys.argv[0])
 
-color1 = sys.argv[1]
+color1 = "'" + sys.argv[1] + "'"
 
 print("Hello Alaya's World!")
 
