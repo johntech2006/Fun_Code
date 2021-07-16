@@ -56,7 +56,7 @@ print("Your second favorite number is " + number1)
 number2 = int(number1) + 5
 
 time.sleep(1) # Sleep for 1 seconds
-print("I like "  + number2 + " !!!")
+print("I like "  + str(number2) + " !!!")
 
 time.sleep(1) # Sleep for 1 seconds
 print(":)\n" + ";)\n" + ":D\n" + ":)\n" + ";)\n" + ":D")
