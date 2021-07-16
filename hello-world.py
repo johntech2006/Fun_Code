@@ -16,7 +16,7 @@ print("Hello Alaya's World!")
 print("Your favorite color is " + color1)
 
 color2 = input("What is your second favorite color?")
-color3 = str(color2)
-print("Your second favorite color is " + color3)
 
-print("I like "  + color3 + " as well!!! ;)")
+print("Your second favorite color is " + color2)
+
+print("I like "  + color2 + " as well!!! ;)")
