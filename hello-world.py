@@ -13,10 +13,10 @@ c = sys.argv[1]
 
 print("Hello Alaya's World!")
 
-print("Your favorite %c is" % c)
+print("Your favorite %c is", c)
 
 f = input("What is your second favorite color?")
 
-print("Your second favorite %f is" % f)
+print("Your second favorite %f is", f)
 
-print("I like %f as well!!! ;)" % f)
+print("I like %f as well!!! ;)", f)
