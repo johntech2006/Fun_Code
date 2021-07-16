@@ -48,18 +48,33 @@ time.sleep(1) # Sleep for 1 seconds
 print("I like "  + color2 + " as well!!!")
 
 time.sleep(1) # Sleep for 1 seconds
+print(".\n" + ". \n" + ".\n" + ". \n" + ".\n")
+
+time.sleep(1) # Sleep for 1 seconds
 number1 = input("What is your favorite number?")
 
 time.sleep(1) # Sleep for 1 seconds
-print("Your second favorite number is " + number1)
+print(".\n" + ". \n" + ".\n" + ". \n" + ".\n")
+
+time.sleep(1) # Sleep for 1 seconds
+print("Your favorite number is " + number1)
 
 number2 = int(number1) + 5
+
+time.sleep(1) # Sleep for 1 seconds
+print(".\n" + ". \n" + ".\n" + ". \n" + ".\n")
 
 time.sleep(1) # Sleep for 1 seconds
 print("I like "  + str(number2) + " !!!")
 
 time.sleep(1) # Sleep for 1 seconds
+print(".\n" + ". \n" + ".\n" + ". \n" + ".\n")
+
+time.sleep(1) # Sleep for 1 seconds
 print(":)\n" + ";)\n" + ":D\n" + ":)\n" + ";)\n" + ":D")
+
+time.sleep(1) # Sleep for 1 seconds
+print(".\n" + ". \n" + ".\n" + ". \n" + ".\n")
 
 time.sleep(1) # Sleep for 1 seconds
 print("Byeee!!!!")
