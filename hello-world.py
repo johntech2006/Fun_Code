@@ -59,13 +59,25 @@ print(".\n" + ". \n" + ".\n" + ". \n" + ".\n")
 time.sleep(1) # Sleep for 1 seconds
 print("Your favorite number is " + number1)
 
-number2 = int(number1) + 5
+time.sleep(1) # Sleep for 1 seconds
+print(".\n" + ". \n" + ".\n" + ". \n" + ".\n")
+
+time.sleep(1) # Sleep for 1 seconds
+number2 = input("What is your second favorite number?")
 
 time.sleep(1) # Sleep for 1 seconds
 print(".\n" + ". \n" + ".\n" + ". \n" + ".\n")
 
 time.sleep(1) # Sleep for 1 seconds
-print("I like "  + str(number2) + " !!!")
+print("Your second favorite number is " + number2)
+
+number3 = int(number1) + int(number2)
+
+time.sleep(1) # Sleep for 1 seconds
+print(".\n" + ". \n" + ".\n" + ". \n" + ".\n")
+
+time.sleep(1) # Sleep for 1 seconds
+print("I like "  + str(number3) + " !!!")
 
 time.sleep(1) # Sleep for 1 seconds
 print(".\n" + ". \n" + ".\n" + ". \n" + ".\n")
