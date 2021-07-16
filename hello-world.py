@@ -12,8 +12,9 @@ import sys
 color1 = str(sys.argv[1])
 
 print("Hello Alaya's World!")
+print(".\n")
 
-print("." \n + "." \n + "." \n + "." \n + "." \n)
+print(".\n" + "." \n + "." \n + "." \n + "." \n)
 
 print("Your favorite color is " + color1)
 
