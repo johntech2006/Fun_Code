@@ -12,6 +12,8 @@ import time
 
 color1 = str(sys.argv[1])
 
+print("\n" + "\n" + "\n" + "\n" + "\n")
+
 print("Hello Alaya's World!")
 
 time.sleep(2) # Sleep for 2 seconds
