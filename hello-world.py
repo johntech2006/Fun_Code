@@ -13,7 +13,7 @@ color = sys.argv[1]
 
 print("Hello Alaya's World!")
 
-print("Your favorite color is", color"!!!")
+print("Your favorite color is", color, "!!!")
 
 color2 = input("What is your second favorite color?")
 
