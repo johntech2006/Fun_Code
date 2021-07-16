@@ -43,3 +43,4 @@ print(":)\n" + ";)\n" + ":D\n" + ":)\n" + ";)\n" + ":D")
 
 time.sleep(2) # Sleep for 2 seconds
 print("Byeee!!!!")
+print("\n" + "\n" + "\n" + "\n" + "\n")
