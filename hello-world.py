@@ -9,14 +9,14 @@ import sys
 # Arguments passed
 #print("\nName of Python script:", sys.argv[0])
 
-color1 = "'" + sys.argv[1] + "'"
+color1 = str(sys.argv[1])
 
 print("Hello Alaya's World!")
 
 print("Your favorite color is " + color1)
 
 color2 = input("What is your second favorite color?")
+color3 = str(color2)
+print("Your second favorite color is " + color3)
 
-print("Your second favorite color is " + color2)
-
-print("I like "  + color2 + " as well!!! ;)")
+print("I like "  + color3 + " as well!!! ;)")
