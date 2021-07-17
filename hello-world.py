@@ -3,15 +3,7 @@
 import sys
 import time
  
-# total arguments
-#n = len(sys.argv)
-#print("Total arguments passed:", n)
- 
-# Arguments passed
-#print("\nName of Python script:", sys.argv[0])
-
-#color1 = str(sys.argv[1])
-
+# Defining function 1 (wait, dot, wait, dot, wait)  
 def wait_f1():
   time.sleep(1) # Sleep for 1 seconds
   print(".\n")
