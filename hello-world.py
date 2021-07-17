@@ -2,7 +2,10 @@
 
 import sys
 import time
- 
+
+# Bot text
+bot_text_1 = "Alaya's BOT :) ;) :D"
+
 # Defining function 1 (wait, dot, wait, dot, wait)  
 def wait_f1():
   time.sleep(1) # Sleep for 1 seconds
@@ -16,7 +19,7 @@ def border_f2():
   print("\n" + "\n")
 
 # Defining function 3 (create border for text)  
-def bordered_text_f3(text):
+def bordered_text_f3(bot_text_1):
     lines = text.splitlines()
     width = max(len(s) for s in lines)
     res = ['┌' + '─' * width + '┐']
@@ -25,10 +28,7 @@ def bordered_text_f3(text):
     res.append('└' + '─' * width + '┘')
     return '\n'.join(res)  
 
-# bot text
-bot_text_1 = "Alaya's BOT :) ;) :D"
-# invoke bordered_text_f3 function
-bordered_text_f3(bot_text_1)
+bordered_text_f3() # invoke bordered_text_f3 function
 
 border_f2()  # invoke function border_f2  
   
@@ -88,5 +88,5 @@ print("Byeee!!!!")
 
 border_f2()  # invoke function border_f2 
 
-# invoke bordered_text_f3 function
-bordered_text_f3(bot_text_1)
+
+bordered_text_f3()   # invoke bordered_text_f3 function
