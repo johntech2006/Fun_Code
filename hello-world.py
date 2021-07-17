@@ -19,7 +19,7 @@ def border_f2():
   print("\n" + "\n")
 
 # Defining function 3 (create border for text)  
-def bordered_text_f3(bot_text_1):
+def bordered_text_f3(text):
     lines = text.splitlines()
     width = max(len(s) for s in lines)
     res = ['┌' + '─' * width + '┐']
@@ -28,7 +28,7 @@ def bordered_text_f3(bot_text_1):
     res.append('└' + '─' * width + '┘')
     return '\n'.join(res)  
 
-bordered_text_f3() # invoke bordered_text_f3 function
+bordered_text_f3(bot_text_1) # invoke bordered_text_f3 function
 
 border_f2()  # invoke function border_f2  
   
