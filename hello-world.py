@@ -13,8 +13,20 @@ def wait_f1():
 
 # Defining function 2 ( creating empty space )
 def border_f2():  
-  print("\n" + "\n" + "\n" + "\n" + "\n")
+  print("\n" + "\n")
 
+# Defining function 3 (create border for text)  
+def bordered_text_f3(text):
+    lines = text.splitlines()
+    width = max(len(s) for s in lines)
+    res = ['┌' + '─' * width + '┐']
+    for s in lines:
+        res.append('│' + (s + ' ' * width)[:width] + '│')
+    res.append('└' + '─' * width + '┘')
+    return '\n'.join(res)  
+
+bordered_text_f3("Alaya's BOT :) ;) :D")      # invoke bordered_text_f3 function
+   
 border_f2()  # invoke function border_f2  
   
 time.sleep(1) # Sleep for 1 seconds
@@ -72,3 +84,5 @@ wait_f1()       # invoke wait_f1 function
 print("Byeee!!!!")
 
 border_f2()  # invoke function border_f2 
+
+bordered_text_f3("Alaya's BOT :) ;) :D")      # invoke bordered_text_f3 function
