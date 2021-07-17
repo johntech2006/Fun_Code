@@ -89,4 +89,4 @@ print("Byeee!!!!")
 border_f2()  # invoke function border_f2 
 
 
-bordered_text_f3()   # invoke bordered_text_f3 function
+bordered_text_f3(Alaya_Bot)   # invoke bordered_text_f3 function
