@@ -30,6 +30,9 @@ def bordered_text_f3(text):
 
 bordered_text_f3(bot_text_1) # invoke bordered_text_f3 function
 
+text = "test"
+bordered_text_f3() # invoke bordered_text_f3 function
+
 border_f2()  # invoke function border_f2  
   
 time.sleep(1) # Sleep for 1 seconds
@@ -89,4 +92,4 @@ print("Byeee!!!!")
 border_f2()  # invoke function border_f2 
 
 
-bordered_text_f3(Alaya_Bot)   # invoke bordered_text_f3 function
+bordered_text_f3("Alaya_Bot")   # invoke bordered_text_f3 function
