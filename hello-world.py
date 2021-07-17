@@ -4,7 +4,7 @@ import sys
 import time
 
 # Bot text
-bot_text_1 = "Alaya BOT"
+text = "Alaya BOT"
 
 # Defining function 1 (wait, dot, wait, dot, wait)  
 def wait_f1():
@@ -28,10 +28,12 @@ def bordered_text_f3(text):
     res.append('└' + '─' * width + '┘')
     return '\n'.join(res)  
 
-bordered_text_f3(bot_text_1) # invoke bordered_text_f3 function
-
+# bordered_text_f3(bot_text_1) # invoke bordered_text_f3 function
 text = "test"
-bordered_text_f3() # invoke bordered_text_f3 function
+    bordered_text_f3()
+    print("Test alaya bot --", text)
+# text = "test"
+# bordered_text_f3() # invoke bordered_text_f3 function
 
 border_f2()  # invoke function border_f2  
   
