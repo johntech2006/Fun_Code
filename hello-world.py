@@ -28,10 +28,12 @@ def bordered_text_f3(text):
     res.append('└' + '─' * width + '┘')
     return '\n'.join(res)  
 
-# bordered_text_f3(bot_text_1) # invoke bordered_text_f3 function
+
 text = "test"
-    bordered_text_f3()
-    print("Test alaya bot --", text)
+bordered_text_f3()
+print("Test alaya bot --", text)
+    
+# bordered_text_f3(bot_text_1) # invoke bordered_text_f3 function
 # text = "test"
 # bordered_text_f3() # invoke bordered_text_f3 function
 
