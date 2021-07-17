@@ -25,7 +25,7 @@ def bordered_text_f3(text):
     res.append('└' + '─' * width + '┘')
     return '\n'.join(res)  
 
-
+# bot text
 bot_text_1 = "Alaya's BOT :) ;) :D"
 # invoke bordered_text_f3 function
 bordered_text_f3(bot_text_1)
