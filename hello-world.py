@@ -2,6 +2,7 @@
 
 import sys
 import time
+from tabulate import tabulate
  
 # Defining function 1 (wait, dot, wait, dot, wait)  
 def wait_f1():
@@ -15,17 +16,15 @@ def wait_f1():
 def border_f2():  
   print("\n" + "\n")
 
-# Defining function 3 (create border for text)  
-def bordered_text_f3(text):
-    lines = text.splitlines()
-    width = max(len(s) for s in lines)
-    res = ['┌' + '─' * width + '┐']
-    for s in lines:
-        res.append('│' + (s + ' ' * width)[:width] + '│')
-    res.append('└' + '─' * width + '┘')
-    return '\n'.join(res)  
+# Create border for bot text  
 
-bordered_text_f3("Alaya BOT start")      # invoke bordered_text_f3 function
+bot_text_1 = """
+Alaya BOT :) ;) :D
+"""
+table = [[bot_text_1]]
+bot_output = tabulate(table, tablefmt='grid')
+
+print(bot_output)  # invoke function border_f2  
    
 border_f2()  # invoke function border_f2  
   
@@ -85,4 +84,4 @@ print("Byeee!!!!")
 
 border_f2()  # invoke function border_f2 
 
-bordered_text_f3("Alaya BOT start")      # invoke bordered_text_f3 function
+print(bot_output)  # invoke function border_f2
