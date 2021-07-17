@@ -25,8 +25,10 @@ def bordered_text_f3(text):
     res.append('└' + '─' * width + '┘')
     return '\n'.join(res)  
 
-bordered_text_f3("Alaya BOT start")      # invoke bordered_text_f3 function
-   
+# invoke bordered_text_f3 function
+bordered_text_f3(text)
+    text = "Alaya's BOT :) ;) :D"
+
 border_f2()  # invoke function border_f2  
   
 time.sleep(1) # Sleep for 1 seconds
@@ -85,4 +87,6 @@ print("Byeee!!!!")
 
 border_f2()  # invoke function border_f2 
 
-bordered_text_f3("Alaya BOT start")      # invoke bordered_text_f3 function
+# invoke bordered_text_f3 function
+bordered_text_f3(text)
+    text = "Alaya's BOT :) ;) :D"
