@@ -10,9 +10,13 @@ def wait_f1():
   time.sleep(1) # Sleep for 1 seconds
   print(".\n")
   time.sleep(1) # Sleep for 1 seconds
-  
-print("\n" + "\n" + "\n" + "\n" + "\n")
 
+# Defining function 2 ( creating empty space )
+def border_f2():  
+  print("\n" + "\n" + "\n" + "\n" + "\n")
+
+border_f2()  # invoke function border_f2  
+  
 time.sleep(1) # Sleep for 1 seconds
 
 print("Hello Alaya's World!")
@@ -67,4 +71,4 @@ wait_f1()       # invoke wait_f1 function
 
 print("Byeee!!!!")
 
-print("\n" + "\n" + "\n" + "\n" + "\n")
+border_f2()  # invoke function border_f2 
